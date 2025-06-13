@@ -53,4 +53,4 @@ def index():
 
 @app.post("/present")
 async def give_present(present: str):  # Added type hint for 'present'
-    return {"response": f"サーバです。メリークリスマス！ {present}ありがとう。お返しはキャンディーです。"}
+    return {"response": f"やっほー！ {present}どうもありがとう！ お礼にAmazonギフト券10,000円をあげるね！！"}
