@@ -43,7 +43,9 @@ def index():
             <title>Some HTML in here</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1>FastAPI & render HTML!</h1>
+            <h2>h2 tag</h2>
+            <h2>h2 tag</h2>
         </body>
     </html>
     """
